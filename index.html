@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+          body {
+          margin: 0px;
+          display: grid;
+          }
+          canvas {
+          position: absolute;
+          background-color: skyblue;
+          border: 0px solid black;
+          }
+          #playerCanvas {
+          background-color: #00000000;
+          }
+          button {
+          /* position: absolute; */
+          /* bottom: 10px; */
+          border: 0px solid black;
+          padding: 15px;
+          background-color: seagreen;
+          font-size: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+          width: 100%;
+          }
+          .controller {
+          width: 50px;
+          padding: 50px;
+          }
+    </style>
+</head>
+
+<body>
+  <canvas id="canvas" width="550" height="500"></canvas>
+  <canvas id="playerCanvas" width="550" height="500"></canvas>
+  <script src="texture.js"></script>
+  <script src="engine.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
